@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/main.css">
+	</head>
+	<body>
+		<script src="./js/main.js"></script>
+		<a href="index.html">Назад</a>
+		<div class="container">
+			<button id='appender' class="btn btn-outline-success appender">Добавить</button>
+			<table id="catalog" class='table'>
+				<tr class="catalog__header">
+					<th class="catalog__header__section" id='id'>
+						ID
+					</th>
+					<th class="catalog__header__section" id='title'>
+						Название
+					</th>
+					<th class="catalog__header__section" id='author'>
+						Автор
+					</th>
+					<th class="catalog__header__section" id='prise'>
+						Цена
+					</th>
+					<th class="catalog__header__section" id='description'>
+						Описание
+					</th>
+				</tr>
+			</table>
+		</div>
+		<div id='modal' class="modal">
+			<div class="modal__content">
+				<span class="modal__close">
+					х
+				</span>
+				<form class="modal__content__form">
+					<input type="text" class="modal__content__form__item" id='form_name' placeholder="Название"><br>
+					<input type="text" class="modal__content__form__item" id="form_author" placeholder="Автор"><br>
+					<input type="text" class="modal__content__form__item" id='form_prise' placeholder="Цена"><br>
+					<input type="text" class="modal__content__form__item" id='form_description' placeholder="Описание"><br>
+					<button type="button" class="btn btn-outline-success save">
+						Сохранить
+					</button>
+					<button type="button" class="btn btn-outline-success cancel">
+						Отмена
+					</button>
+				</form>
+			</div>
+		</div>
+	</body>	
+</html>

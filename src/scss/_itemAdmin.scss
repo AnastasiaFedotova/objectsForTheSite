@@ -1,0 +1,54 @@
+.remover_hiden {
+  display: none;
+  position: absolute;
+}
+tr:hover {
+    background-color: rgba(118, 160, 124, 0.1);
+    & > .remover_hiden {
+        display: block;
+        border: none;    
+    }
+}
+.product {
+    background-color: rgba(215, 230, 217, 0.1);
+    cursor: pointer;
+}
+.modal__close {
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+       border: 1px rgba(93, 173, 105, 0.3) solid;
+    }
+}
+.catalog__header {
+    background-color: rgba(81, 141, 90, 0.3);
+    font: 14pt Arial,sans-serif;
+    text-align: center;
+    &:hover {
+        background-color: rgba(81, 141, 90, 0.3);
+    }
+}
+
+.fa-calendar-edit {
+    color: black;
+}
+
+.modal__content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: gray;
+	width: 30%;
+	.modal__close {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .modal__content__form__item {
+        margin: 1%;
+        padding: 1% 3%;
+        width: 70%;
+    }
+}

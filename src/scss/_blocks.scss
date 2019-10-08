@@ -1,0 +1,24 @@
+html, body {
+	font: 12pt Arial,sans-serif;
+}
+.case {
+	padding: 2%;
+	background-color:white;
+}
+#gallery {
+	padding: 2% 2%;
+	background-color:white;
+}
+.basket {
+	display: none;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	z-index: 1;
+	width: 100%;
+	min-height: 100%;
+	background-color: rgba(228, 222, 222, 0.7);
+}
+.basket_show {
+	display: block;
+}
