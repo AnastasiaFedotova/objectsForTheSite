@@ -1,12 +1,12 @@
-## Админка, страница с выбором товаров, корзина пользователя 
+## admin page, page with a selection of products, user's basket
 
-Клонируйте репозиторий
-В директории проекта выполните:
+1. Clone the repository
+2. Execute the command:
 
-npm install
+2.1 npm install
 
-npm run buildCSS
+2.2 npm run buildCSS
 
-npm run start
+2.3 npm run start
 
-Откройте в браузере страницу http://localhost:8080
+open http://localhost:8080
